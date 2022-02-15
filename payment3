@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Payment page</title>
+<style>
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fffaf0;
+}
+form{
+	width: 450px;
+	margin: 100px auto 0 auto;	
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 #30475e, 0 4px 8px 0 #30475e;
+	color: #000000;
+}
+h1{
+	text-align: center;
+	color: #000000;
+}
+.box1{
+	width: 90%;
+	padding: 10px;
+	border: none;
+	border-radius: border-box;
+	margin: 10px 0 15px 0;
+	background-color: #ffa07a;
+}
+.div1{
+	display: inline-block;
+}
+.box2{
+	padding: 10px;
+	border: none;
+	border-radius: 15px;
+	margin: 10px 0 15px 0;
+	background-color: #ffa07a;
+}
+.btn{
+	width: 49%;
+	padding; 10px;
+	border: none;
+	border-radius: 15px;
+	background-color: #e9967a;
+	font-size: 18px;
+	color: #fff;
+}
+</style>
+	
+</head>
+
+<body>
+	<form action="action">
+		<h1>Payment</h1>
+		<label for="Payer Name">Name on Card</label><br>
+			<input class="box1" type="text" name="name" id="name" placeholder="Enter"><br>
+		<label for="carnum">Card Number</label><br>
+			<input class="box1" type="number" name="number" id="number" placeholder="e.g; 1234 1234 1234"><br>
+		
+	<div class="div1">
+		<label for="Cardex">Card Expiry month</label><br>
+			<input class="box2" type="month" name="month" id="month" placeholder="MM"><br>
+	</div>
+	<div class="div1">
+		<label for="cardye">Card Expiry year</label><br>
+			<input class="box2" type="year" name="year" id="year" placeholder="yyyy"><br>
+	</div>
+	<div class="div1">
+		<label for="cardCVC">Card CVC</label><br>
+			<input class="box2" type="cvc" name="cvc" id="cvc" placeholder="cvc"><br>
+	</div>
+	<div>
+		<button class="btn" id="process-payment-btn" type="submit">Click Pay</button>
+		<button class="btn" type="submit">Close</button>
+	</div>
+	</form>
+	
+</body>
+</html>
+

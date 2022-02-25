@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>About Us </title>
+<style>
+*{
+    margin:0;
+    padding:0;}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Garamond, serif;
+}
+<!--*header*-->
+
+.logo{
+	cursor: pointer;}
+
+.navbar{
+     display:flex;
+     align-items: center;
+     padding:20px;
+	 font-family: 'Poppins', sans-serif;}
+ nav{
+     flex:1;
+     text-align:right;
+	 width: 100%;
+	 font-family: 'Poppins', sans-serif;}  
+ nav ul{
+       display:inline-block;
+       list-style-type:none;
+	   font-family: 'Poppins', sans-serif;}
+	   
+ nav ul li{
+       display:inline-block;
+       margin-right:20px;
+	   cursor: pointer;
+	   font-family: 'Poppins', sans-serif;}
+	   
+.container{
+       max-width:1300px;
+       margin:auto;
+       padding-left:25px;
+       padding-right:25px;  
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px;
+  
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #ffd6d6;<!--*soft pink-orange*-->
+  color: white;
+}
+
+.small-container {
+  padding: 0 16px;
+}
+
+.small-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #8b4513;}<!--saddlebrown-->
+
+<!--*apa ni?*-->
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+<!--*link*-->
+a{
+text-decoration: none;
+font-family: 'Poppins', sans-serif;}
+
+a:link, a:visited {
+  text-align: center;
+  text-decoration: none;}
+  
+<!--------------footer------------->
+.footer{
+     background: #000;
+     color: #8a8a8a;
+     font-size: 14px;
+     padding: 60px 0 20px;}
+.footer p{
+     color: #8a8a8a;}
+	 
+.footer h3{
+     color: #fff;
+     margin-bottom: 20px;}
+	 
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+     min-width: 250px;
+     margin-bottom: 20px;}
+	 
+.footer-col-1{
+     flex-basis: 30%;}
+	 
+.footer-col-2{
+     flex: 1;
+     text-align: center;}
+	 
+.footer-col-2 img{
+     width: 180px;
+     margin-bottom: 20px;}
+	 
+.footer-col-3, .footer-col-4{
+     flex-basis: 12%;
+     text-align: center;}
+	 
+ul{
+     list-style-type: none;}
+	 
+.app-logo{
+     margin-top: 20px;}
+.app-logo img{
+     width: 140px;}
+
+.footer hr{
+     border: none;
+     background: #b5b5b5;
+     height: 1px;
+     margin: 20px 0;}
+	 
+.copyright{
+     text-align: center;}
+</style>
+</head>
+
+<body>
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+         <div class="logo">
+		  <img src="image/logo.jpg" width="125px"/>
+		 </div>
+		 
+	<nav> <!--*header*-->
+      <ul>
+        <li><a href="index">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="Contact us">Contact</a></li>
+        <li><a href="">Account</a></li>
+       </ul>
+    </nav>
+     <img src="image/cart.png" width="30" height="30px">
+    </div>
+	
+
+<div class="about-section">
+  <h1>We are Global Shoe</h1>
+  <p style="font-style: italic">We Care For Footwear.</p>
+  <br>
+  <p>We aspire to offer an exceptional shopping experience for each and <br>every customer, while shopping online. Our team<br>will assist you in discovering your<br>new favourites based on style and size<br>to ensure you don't miss out on any of the latest trends.<br>Are you ready to feel like a new person?</p> 
+  <br>
+  <p>Choose from a wide range of designs to make each outfit one-of-a-kind.</p>
+  <br>
+  <a href="product page(testing)"><b><u>Shop here</u></b><a/>
+  
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Omar" style="width:100%">
+<!--*gambar*-->
+	 <div class="small-container">
+        <h2>Omar</h2>
+        <p class="title">Founder& web-developer</p>
+        <p>"I've got an inspiration to do this since me and my team likes about fashion, especially shoe fashion."</p>
+        <p>omar@gmail.com</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Gurveen" style="width:100%">
+<!--*gambar*-->
+      <div class="container">
+        <h2>Gurven</h2>
+        <p class="title"> Web designer manager</p>
+        <p>"I'm having fun doing it and manage to done it with full of passion."</p>
+        <p>mike@example.com</p>
+     
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Alia" style="width:100%">
+<!--*gambar*-->
+      <div class="container">
+        <h2>Alia</h2>
+        <p class="title">Product manager & web designer</p>
+        <p>"Too many things to talk about shoe's fashion. You are lucky because we make you life easy."</p>
+        <p>aliaarina53@gmail.com</p>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----------------------footer--------------------------------->
+<div class="footer">
+ <div class="container">
+    <div class="row">
+        <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and IOS mobile phone.</p>
+                 <div class="app-logo">
+                    <img src="image/google.png">
+                    <img src="image/apple-app-store-logo.jpg" height="45">
+                 </div>
+        </div>
+ <div class="footer-col-2">
+    <img src="image/logo.jpg">
+		<h3>Download Our App</h3>
+            <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Shoes Accessible to the Many. </p>
+ </div>
+ <div class="footer-col-3">
+        <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li> 
+              <li>Return Policy</li>
+              <li>Join Affiliate</li> 
+            </ul>
+ </div>
+ <div class="footer-col-4">
+		<h3>Follow us</h3>
+            <ul>
+             <li>Facebook</li>
+             <li>Twitter</li> 
+             <li>Instagram</li>
+             <li>LinkedIn</li> 
+            </ul>
+ </div>
+</div>
+    <p class="copyright">Copyright 2021- </p>
+    </div>
+ </div>
+
+</body>
+</html>
